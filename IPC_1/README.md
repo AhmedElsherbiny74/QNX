@@ -22,3 +22,12 @@ Let’s follow what happens when you run each one.
 ### a) When you start **sensor**
 ```cpp
 name_attach(NULL, "sensor", 0);
+```
+This line registers the name "sensor" in QNX’s system namespace.
+
+Think of it like:
+
+“Hey OS, I’m a server named ‘sensor’. If anyone asks for that name, connect them to me.”
+
+This registration is handled by the process manager (procnto).
+It creates a small internal object under /dev/name/local/sensor.
