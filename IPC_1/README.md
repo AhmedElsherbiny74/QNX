@@ -1,4 +1,4 @@
-# QNX Lab 2 – Understanding User-Space “Driver” IPC
+# QNX  – Understanding User-Space “Driver” IPC
 
 ## 1️⃣ What’s happening in your lab — the big picture
 
