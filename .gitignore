@@ -1,0 +1,8 @@
+# QNX
+*.o
+*.qnx
+build/
+# General
+*.log
+*.tmp
+.DS_Store
